@@ -14,6 +14,7 @@ public class FeignConfiguration {
     @Value("${service.app.host}")
     private String serviceAppHost;
 
+
     @Bean
     public KafkaServiceClient getKafkaServiceClient() {
         return Feign.builder()
