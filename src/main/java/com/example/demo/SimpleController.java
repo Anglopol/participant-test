@@ -12,8 +12,10 @@ public class SimpleController {
 
     @GetMapping
     public void get() {
+
         for (int i = 0; i < 100; i++) {
-            client.sendMessage("hello message");
+            System.out.println("send " + i);
+            client.sendMessage("hello Andrey!");
         }
     }
 }
