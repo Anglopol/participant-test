@@ -17,7 +17,7 @@
     <properties>
         <current-version>0.0.1</current-version>
         <java.version>11</java.version>
-        <service.api.version>0.1.0-SNAPSHOT</service.api.version>
+        <service.api.version>0.2.0-SNAPSHOT</service.api.version>
         <git.username>anglopol</git.username>
         <git.repo>participant-test</git.repo>
         <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
