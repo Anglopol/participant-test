@@ -1,6 +1,7 @@
 package com.example.demo;
 
-import com.wine.to.up.api.feign.KafkaServiceClient;
+
+import com.wine.to.up.demo.service.api.feign.KafkaServiceClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -49,7 +49,7 @@
         </dependency>
         <dependency>
             <groupId>com.wine.to.up</groupId>
-            <artifactId>service-api</artifactId>
+            <artifactId>demo-service-api</artifactId>
             <version>${service.api.version}</version>
         </dependency>
 
