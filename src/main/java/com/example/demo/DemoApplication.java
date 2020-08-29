@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.wine.to.up.api", "com.example.demo"})
+@ComponentScan({"com.wine.to.up.demo.service.api", "com.example.demo"})
 public class DemoApplication {
 
     public static void main(String[] args) {
