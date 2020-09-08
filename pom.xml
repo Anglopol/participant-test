@@ -8,11 +8,11 @@
         <version>2.3.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>demo</artifactId>
+    <groupId>com.wine.to.up</groupId>
+    <artifactId>message-sender</artifactId>
     <version>${current-version}-SNAPSHOT</version>
-    <name>demo</name>
-    <description>Demo project for Spring Boot</description>
+    <name>message-sender</name>
+    <description>Message sender</description>
 
     <properties>
         <current-version>0.0.1</current-version>
