@@ -21,15 +21,15 @@ public class SenderController {
     private final KafkaServiceClient client;
     private final ExecutorService executorService;
     private final List<String> messagesPool;
+    private final AtomicBoolean isLoadTestingPerformed;
 
     public SenderController(@Qualifier("MessagesPool") List<String> messagesPool,
                             KafkaServiceClient client) {
         this.messagesPool = messagesPool;
         this.client = client;
         this.executorService = Executors.newSingleThreadExecutor();
+        this.isLoadTestingPerformed = new AtomicBoolean(false);
     }
-
-    private AtomicBoolean isLoadTestingPerformed = new AtomicBoolean(false);
 
     @GetMapping(value = "/start")
     public void startLoadTesting() {
